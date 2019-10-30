@@ -33,7 +33,7 @@ import datetime
 import json
 import requests
 import sys
-API_KEY = 'b94abddafa5ce3383d9e79db25d7d20469f98b0d'
+API_KEY = 'e24759c28edd1d97715a6ba9ea8bc679c5d2706b'
 ORG_ID = '578149602163687854'
 
 def get_network_name(network_id, networks):
