@@ -42,7 +42,7 @@ def get_client_info(client_ip, dnac_jwt_token):
     :param dnac_jwt_token: DNA C token
     :return: client info, or {None} if client does not found
     """
-     log("Executing Function: "+inspect.stack()[0][3])
+    log("Executing Function: "+inspect.stack()[0][3])
     url = DNAC_URL + '/api/v1/host?hostIp=' + client_ip
     header = {'content-type': 'application/json', 'Cookie': dnac_jwt_token}
     response = requests.get(url, headers=header, verify=False)
