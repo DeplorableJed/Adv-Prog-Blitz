@@ -5,9 +5,9 @@
 
 
 import json
-import utils
-import dnac_apis
-import service_now_apis
+import utils 
+import dnac_apis #This is python script
+import service_now_apis #This is python script
 import os
 import os.path
 import difflib
@@ -19,7 +19,6 @@ from requests.auth import HTTPBasicAuth  # for Basic Auth
 from urllib3.exceptions import InsecureRequestWarning  # for insecure https warnings
 
 from config import DNAC_URL, DNAC_PASS, DNAC_USER
-from config import SNOW_DEV
 
 urllib3.disable_warnings(InsecureRequestWarning)  # disable insecure https warnings
 
