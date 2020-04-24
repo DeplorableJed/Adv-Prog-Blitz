@@ -3,7 +3,8 @@
 
 # developed by Gabi Zapodeanu, TSA, GPO, Cisco Systems
 
-
+import sys
+sys.path.insert(0,'..') #This allows one directory back to be searched for imported objects
 import json
 import utils 
 import dnac_apis #This is python script
